@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+
+
+.maindiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+
+.sidebardiv{
+    width: 20vw;
+    height: 100vh;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    background-color: rgb(98, 0, 255);
+    color: white;
+}
+a{
+    font-size: 3vmin;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: lightblue;
+    width: 15vw;
+}
+h2{
+    font-size: 3vmin;
+}
+#MAIN, #STUDENT, #EXAMS{
+    font-size: 3vmin;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+.rightdiv{
+    width: 80vw;
+    height: 100vh;
+}
+
+.overviewtextalign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.overviewdiv{
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: dashed;
+}
+.overviewstudentdiv{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(253, 186, 109);
+    border-radius: 4mm;
+}
+.overviewteachersdiv{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(190, 227, 248);
+    border-radius: 4mm;
+}
+.overviewcoursesdiv{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(192, 255, 172);
+    border-radius: 4mm;
+}
+
+
+.chartsdiv{
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chartsadmissiondiv{
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(166, 127, 240);
+    border-radius: 4mm;
+}
+.chartsadmissionsubdiv{
+    width: 35vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+    background-color: rgb(206, 180, 255);
+    border-radius: 4mm;
+    font-size: 3vmin;
+}
+.chartsplacementdiv{
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(166, 127, 240);
+    border-radius: 4mm;
+}
+.chartsplacementsubdiv{
+    width: 35vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+    background-color: rgb(206, 180, 255);
+    border-radius: 4mm;
+    font-size: 3vmin;
+}
+
+
+/* Other */
+#count{
+    color: Red;
+}
+.bar1{
+    background-color: red;
+    height: 75%;
+}
+.bar2{
+    background-color: yellow;
+    height: 95%;
+}
+.bar3{
+    background-color: green;
+    height: 80%;
+}
+.bar4{
+    background-color: blueviolet;
+    height: 100%;
+}
+.bar5{
+    background-color: red;
+    height: 70%;
+}
+.bar6{
+    background-color: yellow;
+    height: 80%;
+}
+.bar7{
+    background-color: green;
+    height: 60%;
+}
+.bar8{
+    background-color: blueviolet;
+    height: 79%;
+}
